@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Way Maker</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FavIcon CSS -->
+    <link rel="icon" href="assets/images/favicon-16x16.png" type="image/gif" sizes="16x16">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <!--Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome Icon CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+    <!-- Wow Animation CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+    <!--Jarallax CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/jarallax.css">
+
+    <!-- Main Style CSS  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Loder Start -->
+    <div class="loader-box">
+        <div class="infinity-loader">
+            <div class="bg">
+                <!--background circles-->
+                <div class="left-bg"></div>
+                <div class="right-bg"></div>
+            </div>
+            <div class="fg">
+                <!--foreground circles-->
+                <div class="top-left-rect">
+                    <div></div>
+                </div>
+                <div class="bottom-right-rect">
+                    <div></div>
+                </div>
+                <div class="top-right-rect">
+                    <div></div>
+                </div>
+                <div class="bottom-left-rect">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loder End -->
+
+
+    <!-- Header Start -->
+    <header class="site-header">
+        <!-- Top start -->
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="header-contact">
+                            <a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                title="Mail to servicioalcliente@waymaker.com.co"><span><img
+                                        src="assets/images/email_2.png" style="width: 20px;"
+                                        alt="Mail Icon"></span>servicioalcliente@waymaker.com.co</a>
+                            <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+                                target="_blank" title="Llamar a +57 305 2371162"><span><img
+                                        src="assets/images/watsap.png" style="width: 20px;" alt="Call Icon"></span>+57
+                                305 2371162</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="Social-midea">
+                            <a href="https://www.facebook.com/WayMakerSAS" target="_blank" title="Facebook"><span><img
+                                        src="assets/images/fbblanco.png" style="width: 20px;" alt="Facebook"></span></a>
+                            <a href="https://www.instagram.com/waymakersas/" target="_blank"
+                                title="Instagram"><span><img src="assets/images/instagramblanco.png"
+                                        style="width: 20px;" alt="Instagram"></span></a>
+                            <a href="https://www.linkedin.com/in/waymakersas/" target="_blank"
+                                title="linkedin"><span><img src="assets/images/linkedinblanco.png" style="width: 20px;"
+                                        alt="LinkedIn"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top End -->
+
+        <!--Navbar Start  -->
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <!-- Sit Logo Start -->
+                        <div class="site-branding">
+                            <a href="index.html" title="WayMaker">
+                                <img src="assets/images/Monocromatico_8@4x.png" alt="Logo">
+                                <img src="assets/images/Logo_Principal@4x.png" class="sticky-logo" alt="Logo">
+                            </a>
+                        </div>
+                        <!-- Sit Logo End -->
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="header-menu">
+                            <nav class="main-navigation">
+                                <button class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <ul class="menu" id="servicios">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li class="active"><a href="about-us.html">Nosotros</a></li>
+                                    <li class="menu-lista">
+                                        <a href="services.html">Servicios</a>
+                                        <ul>
+                                            <li><a href="cursos-virtuales.html">Cursos virtuales</a></li>
+                                        </ul>  
+                                    </li>
+                                    <li>
+                                        <a href="https://waymakersas.blogspot.com/" target="_blank" title="services">Blog</a>
+                                    </li>
+                                    <li class="boton-contacto" style="display: none;">
+                                        <a href="contact-us.html">Contáctanos</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                            <div class="black-shadow"></div>
+                            <div class="header-btn">
+                                <a href="contact-us.html" class="sec-btn">Contáctanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Navbar End  -->
+    </header>
+    <!-- Header End -->
+    <!-- Banner Start-->
+    <section class="main-inner-banner back-img" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        style="background-image: url(assets/images/banner-nosotros.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-page-banner-content">
+                        <h1 class="h1-title wow fadeup-animation" data-wow-delay="0.4s">Nosotros</h1>
+                        <div class="breadcrumb-box wow fadeup-animation" data-wow-delay="0.5s">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li><a href="about-us.html">Nosotros</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner End-->
+
+    <!--Service Detail Content Start-->
+    <section class="main-service-detail" style="padding-bottom:0 ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-detail">
+                        <!--About Us Start-->
+                        <section class="main-about" style="padding-top:0; padding-bottom: 100px;">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6">
+                                        <div class="about-img wow fadeInLeft" data-wow-delay="0.4s">
+                                            <div class="about-img-1">
+                                                <img src="assets/images/personas-imagen.png" data-tilt data-tilt-max="3"
+                                                    alt="about us" style="width: 570px;
+                            height: 672px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                                        <h2 class="h2-title mob-pt-30">Ofrecemos soluciones con calidad</h2>
+                                        <div class="main-about-pointbox">
+                                            <div class="about-point-box">
+                                                <img src="assets/images/check.png" alt="tick" style="width: 40px" ;>
+                                                <div class="about-point-content">
+                                                    <p>Soluciones para personas naturales</p>
+                                                </div>
+                                            </div>
+                                            <div class="about-point-box ml-15">
+                                                <img src="assets/images/check.png" alt="tick" style="width: 40px;">
+                                                <div class="about-point-content">
+                                                    <p>Soluciones para empresas</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="about-content">
+                                            <p>Somos un equipo experto en pensiones. Cuyo objetivo es brindar una
+                                                asesoría clara y sencilla,
+                                                que permita hallar la mejor alternativa para cada caso. Teniendo en
+                                                cuenta las
+                                                particularidades de los mismos. </p>
+                                            <p> Para lograr esto, tenemos como pilar al interior de nuestra
+                                                organización, la implementación
+                                                de la <strong style="color:#f08057">Cultura Maker</strong>. La cual nos permite crear y fomentar en nuestro
+                                                equipo la resolución de
+                                                problemas, el trabajo en equipo, la innovación, adaptabilidad e
+                                                investigación. Lo que nos
+                                                permite ser líderes en la actualidad en temas de pensiones.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--About Us End-->
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Services Detail Content End-->
+
+    <section class="main-service-detail" style="background-color: #3e4a5a; color:white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-detail">
+                        <!--About Us Start-->
+                        <section class="wow fadeInLeft" data-wow-delay="0.4s">
+                            <div style="display: flex; text-align: center; width: 100%;justify-content: center;">
+                                <div class="service-detail contenedor-detale-nosotros" style="width: 60%;">
+                                    <h2 class="h2-title" style="color:white">¿Qué te ofrecemos?</h2>
+                                    <div class="about-content" style="margin-bottom:20px">
+                                        <p style="color: white">
+                                            Entendiendo las necesidades que se presentan hoy en día en materia
+                                            pensional, hemos
+                                            adaptado
+                                            nuestros servicios para ofrecer soluciones con calidad a personas naturales
+                                            y
+                                            empresas.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="row wow fadeInLeft contenedor-person-anatural" style="margin-top:30px">
+
+                                <div class="col-lg-6  background-image-about background-image-about-1">
+
+                                    <div class="">
+                                        <h3 class="h3-title" style="color:white">Para personas naturales:</h3>
+
+                                        <div class="blog-point">
+                                            <div class="blog-point-box">
+                                                <ul>
+                                                    <li><img src="assets/images/tick.png" style="margin-top: 0;
+                                                        margin-bottom: 0;" alt="tick"><span>Acompañamos y asesoramos
+                                                            todo tu proceso de solicitud de pensión.</span></li>
+                                                    <li><img src="assets/images/tick.png" style="margin-top: 0;
+                                                        margin-bottom: 0;" alt="tick"><span>Te ayudamos en la
+                                                            corrección de tu Historia Laboral, lo que permitirá mayor
+                                                            agilidad
+                                                            al
+                                                            momento de la solicitud de tu pensión.</span></li>
+                                                    <li><img src="assets/images/tick.png" style="margin-top: 0;
+                                                        margin-bottom: 0;" alt="tick"><span>Hacemos proyección de la
+                                                            mesada pensional en sus diferentes escenarios.</span></li>
+                                                    <li><img src="assets/images/tick.png" style="margin-top: 0;
+                                                        margin-bottom: 0;" alt="tick"><span>Comprendemos lo complejo
+                                                            de la solicitud de pensiones especiales,
+                                                            anticipadas o
+                                                            de
+                                                            invalidez.
+                                                            Por eso, te ofrecemos asesoría personalizada para tu caso.
+                                                            Con
+                                                            acompañamiento de
+                                                            equipo
+                                                            interdisciplinario.</span></li>
+                                                    <li><img src="assets/images/tick.png" style="margin-top: 0;
+                                                        margin-bottom: 0;" alt="tick"><span>Brindamos el servicio de
+                                                            depuración de deudas si fuiste empleador y
+                                                            requieres la
+                                                            revisión y
+                                                            saneamiento de tu deuda frente a los diferentes fondos de
+                                                            pensiones.</span></li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <div class="col-lg-6 background-image-about background-image-about-2 ">
+                                    <div>
+
+                                        <div>
+                                            <div class="about-img-1" style="text-align: center;">
+                                                <img src="assets/images/imagen-redonda-nosotros.png" data-tilt
+                                                    data-tilt-max="3" alt="about us" style="width: 400px;">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- <div class="col-lg-5">
+                                    <img src="assets/images/imagen-redonda-nosotros.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="width: 70%;">
+                                </div> -->
+
+                            </div>
+                            <div class="row  wow fadeInRight" data-wow-delay="0.5s" style="margin-top: 20px;">
+
+                                <div class="col-lg-6 imagen-empresas">
+
+                                    <div>
+                                        <div class="about-img-1" style="text-align: center;">
+                                            <img src="assets/images/gente-negocios-dandose-mano-modified.png" data-tilt
+                                                data-tilt-max="3" alt="about us" style="width: 400px;">
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="col-lg-6">
+
+
+                                    <h3 class="h3-title" style="color:white">Para empresas:</h3>
+
+                                    <div class="blog-point">
+                                        <div class="blog-point-box">
+                                            <ul>
+                                                <li><img src="assets/images/tick.png" style="margin-top: 0;
+                        margin-bottom: 0;" alt="tick"><span>Ofrecemos una herramienta de diagnóstico llamada
+                                                        “Assessment”. Que permite
+                                                        obtener un panorama claro de la situación de la empresa, en
+                                                        relación a los
+                                                        estados de cuenta de los aportes pensionales.</span></li>
+                                                <li><img src="assets/images/tick.png" style="margin-top: 0;
+                        margin-bottom: 0;" alt="tick"><span>Si presentan deudas por aportes pensionales ante los
+                                                        fondos, brindamos el
+                                                        servicio de proceso de depuración. Con una de las
+                                                        metodologías más
+                                                        innovadoras.
+                                                        Adaptándonos a las necesidades de cada organización.</span>
+                                                </li>
+                                                <li><img src="assets/images/tick.png" style="margin-top: 0;
+                        margin-bottom: 0;" alt="tick"><span>Implementamos dentro de la organización el proceso de
+                                                        corrección de
+                                                        historias
+                                                        laborales de manera dual. Tanto como empleador como
+                                                        trabajador. Lo que
+                                                        permite
+                                                        ir esclareciendo inconsistencias para la empresa y para el
+                                                        colaborador.</span></li>
+                                                <li><img src="assets/images/tick.png" style="margin-top: 0;
+                        margin-bottom: 0;" alt="tick"><span>Asesorías especializadas en temas actuales del sistema
+                                                        pensional</span></li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- <div class="col-lg-5">
+                                    <img src="assets/images/imagen-redonda-nosotros.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="width: 70%;">
+                                </div> -->
+
+
+
+                        </section>
+                        <!--About Us End-->
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Our Team Start-->
+<section class="main-team" style="padding-top: 108px;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+                <h2 class="h2-title" style="margin-bottom:100px;">Conoce a nuestros socios fundadores</h2>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="margin-bottom: 30px;">
+                <div class="team-box ml-15 mr-15 wow fadeup-animation" data-wow-delay="0.3s">
+                    <div class="team-img">
+                        <img src="assets/images/Fotos Equipo/jefe.png" alt="Mónica Martinez" style="height: 600px; width: 400px;">
+                        <div class="contenido-oculto contenido-oculto-naranja">
+                            <div class="main-team-social">
+                            </div>
+                            <div class="scroll" style="max-height: 90%; overflow: auto;">
+                                <p>
+                                    Way maker nació de la necesidad que vi al trabajar en un fondo de pensiones; ya
+                                    que me di cuenta que los fondos de pensiones no cuentan con la capacidad humana
+                                    de atender con calidad y profundidad la necesidad de las empresas y de sus
+                                    afiliados en materia pensional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-content">
+                        <h3 class="h3-title" style="padding-top:10px">Mónica Martinez</h3>
+                        <strong style="color:#ADA4D0">Socia fundadora</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6" style="margin-bottom: 30px;">
+                <div class="team-box ml-15 mr-15 wow fadeup-animation" data-wow-delay="0.3s">
+                    <div class="team-img">
+                        <img src="assets/images/Fotos Equipo/experto1.png" alt="Member-1" style="height: 600px; width: 400px;">
+                        <div class="contenido-oculto contenido-oculto-naranja">
+                            <div class="main-team-social">
+                            </div>
+                            <div class="scroll" style="max-height: 90%; overflow: auto;">
+                                <p>
+                                    Como socio fundador, nos cautivó la necesidad de ayudar, orientar y brindar una
+                                    buena atención; creando caminos de esperanza y soluciones definitivas; como lo
+                                    es nuestra filosofía, donde buscamos ser solidarios con el desconocimiento de
+                                    las empresas y las personas, en Way Maker los orientamos en un proceso correcto,
+                                    que traiga consigo resultados satisfactorios.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-content">
+                        <h3 class="h3-title" style="padding-top:10px">Andres Moncayo</h3>
+                        <strong style="color:#ADA4D0">Socio fundador</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Our Team End-->
+
+
+
+
+
+       <!--Footer Start-->
+       <section class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 order-lg-1 order-1 container-service-icon">
+                    <div class="logo-content mob-mb-15 container-service-icon" style="width: 80%; flex-direction: column;">
+                        <div style="text-align: center;">
+
+                            <a href="javascript:void(0);"><img src="assets/images/logo-footer.png" alt="logo"
+                                    style="width: 220px;"></a>
+                        </div>
+                        <p style="margin-top:10px; text-align: center;">Somos su mejor aliado para lograr el saneamiento
+                            de las deudas que presentan ante los fondos de pensiones. 
+                            <br>
+                            <a href="POLÍTICA_DE_TRATAMIENTO_DE_DATOS_WAY_MAKER.pdf" target="_blank" style="z-index: 1; position: relative; text-decoration: underline;">
+                                Política de tratamiento de datos
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-lg-1 order-1">
+                    <div class="our-links mob-mb-15 container-service-icon" style="flex-direction: column; align-items: center;">
+                        <h3 class="h3-title">Explora</h3>
+                        <div class="links-text">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="about-us.html">Nosotros</a></li>
+                                <li><a href="services.html">Servicios</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-lg-4 order-2">
+                    <div class="contact-us mob-mt-15 mob-mt-0 container-service-icon" style="flex-direction: column;">
+                        <h3 class="h3-title">Contactanos</h3>
+                        <div class="contact-us-content container-service-icon" style="flex-direction: column;">
+                            <div class="contact-text mb-20">
+                                <div class="contact-icon">
+                                    <img src="assets/images/location-icon.png" alt="location">
+                                </div>
+                                <p style="color: #ffffff;"> Calle 49 sur No 45 a 300 Of.2007,<br>
+                                    Torre empresarial s48,<br>
+                                    Envigado, Antioquia.</p>
+                            </div>
+                            <div class="contact-text mb-20">
+                                <div class="contact-icon">
+                                    <img src="assets/images/call-1.png" alt="call">
+                                </div>
+                                <p> <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+                                        target="_blank" title="Llamar a +57 305 2371162" style="color: #ffffff;">+57 305
+                                        2371162</a></p>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-icon">
+                                    <img src="assets/images/email-1.png" alt="email">
+                                </div>
+                                <p> <a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                        title="Mail to servicioalcliente@waymaker.com.co"
+                                        style="color: #ffffff;">servicioalcliente@waymaker.com.co</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row copyright-bg">
+                <div class="col-xl-6 col-lg-6 col-md-7">
+                    <div class="copyright-content container-service-icon">
+                        <p>Copyright &copy; <span id="currentYear"></span> <a href="https://Waymaker.com.co">Way Maker</a> Todos los derechos
+                            reservados.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-5">
+                    <div class="social-media-footer container-service-icon" style="width:100%">
+                        <a href="https://www.linkedin.com/in/waymakersas/" title="Follow on Twitter"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/waymakersas/" title="Follow on Instagram"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/WayMakerSAS" title="Follow on Facebook"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer End-->
+
+    <!-- Scroll To Top Start -->
+    <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+        target="_blank" class="scroll-top" id="scroll-to-top">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </a>
+    <!-- Scroll To Top End-->
+
+    <!-- Jquery JS Link -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS Link -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="assets/js/custom.js"></script>
+
+    <!--Counter JS-->
+    <script src="assets/js/custom-scroll-count.js"></script>
+
+    <!-- Slick Slider JS Link -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Wow Animation JS -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--Jarallax JS-->
+    <script src="assets/js/jarallax.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+
+    <!--Tilt Js-->
+    <script src="assets/js/tilt.jquery.js"></script>
+
+</body>
+<style>
+    .team-box {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .team-img {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.team-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.contenido-oculto-naranja {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f08057;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: top 0.3s;
+    display: flex;
+    align-items: center;
+    top: 100%;
+    bottom: auto;
+}
+
+.team-box:hover .contenido-oculto-naranja {
+    top: 0;
+}
+
+    .contenido-oculto-lila {
+        position: absolute;
+        bottom: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #ada4cf;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: bottom 0.3s;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .contenido-oculto-amarillo-claro {
+        position: absolute;
+        bottom: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #f7e09c;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: bottom 0.3s;
+        display: flex;
+        align-items: center;
+    }
+
+    .contenido-oculto-amarillo-oscuro {
+        position: absolute;
+        bottom: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #fbdf8e;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: bottom 0.3s;
+        display: flex;
+        align-items: center;
+    }
+
+    .team-box:hover .contenido-oculto {
+        bottom: 0;
+    }
+</style>
+
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Way Maker</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FavIcon CSS -->
+    <link rel="icon" href="assets/images/favicon-16x16.png" type="image/gif" sizes="16x16">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <!--Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome Icon CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+    <!-- Wow Animation CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+    <!--Jarallax CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/jarallax.css">
+
+    <!-- Main Style CSS  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.1.0/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Loder Start -->
+    <div class="loader-box">
+        <div class="infinity-loader">
+            <div class="bg">
+                <!--background circles-->
+                <div class="left-bg"></div>
+                <div class="right-bg"></div>
+            </div>
+            <div class="fg">
+                <!--foreground circles-->
+                <div class="top-left-rect">
+                    <div></div>
+                </div>
+                <div class="bottom-right-rect">
+                    <div></div>
+                </div>
+                <div class="top-right-rect">
+                    <div></div>
+                </div>
+                <div class="bottom-left-rect">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loder End -->
+
+
+    <!-- Header Start -->
+    <header class="site-header">
+        <!-- Top start -->
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="header-contact">
+                            <a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                title="Mail to servicioalcliente@waymaker.com.co"><span><img
+                                        src="assets/images/email_2.png" style="width: 20px;"
+                                        alt="Mail Icon"></span>servicioalcliente@waymaker.com.co</a>
+                            <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker" target="_blank"
+                                title="Llamar a +57 305 2371162"><span><img src="assets/images/watsap.png"
+                                        style="width: 20px;" alt="Call Icon"></span>+57 305 2371162</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="Social-midea">
+                            <a href="https://www.facebook.com/WayMakerSAS" target="_blank" title="Facebook"><span><img
+                                        src="assets/images/fbblanco.png" style="width: 20px;" alt="Facebook"></span></a>
+                            <a href="https://www.instagram.com/waymakersas/" target="_blank"
+                                title="Instagram"><span><img src="assets/images/instagramblanco.png"
+                                        style="width: 20px;" alt="Instagram"></span></a>
+                            <a href="https://www.linkedin.com/in/waymakersas/" target="_blank"
+                                title="linkedin"><span><img src="assets/images/linkedinblanco.png" style="width: 20px;"
+                                        alt="LinkedIn"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top End -->
+
+        <!--Navbar Start  -->
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <!-- Sit Logo Start -->
+                        <div class="site-branding">
+                            <a href="index.html" title="WayMaker">
+                                <img src="assets/images/Monocromatico_8@4x.png" alt="Logo">
+                                <img src="assets/images/Logo_Principal@4x.png" class="sticky-logo" alt="Logo">
+                            </a>
+                        </div>
+                        <!-- Sit Logo End -->
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="header-menu">
+                            <nav class="main-navigation">
+                                <button class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <ul class="menu" id="servicios">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about-us.html">Nosotros</a></li>
+                                    <li class="menu-lista">
+                                        <a href="services.html">Servicios</a>
+                                        <ul>
+                                            <li><a href="cursos-virtuales.html">Cursos virtuales</a></li>
+                                        </ul>  
+                                    </li>
+                                    <li>
+                                        <a href="https://waymakersas.blogspot.com/" target="_blank" title="services">Blog</a>
+                                    </li>
+                                    <li class="boton-contacto active" style="display: none;">
+                                        <a href="contact-us.html">Contáctanos</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                            <div class="black-shadow"></div>
+                            <div class="header-btn">
+                                <a href="contact-us.html" class="sec-btn">Contáctanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Navbar End  -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Banner Start-->
+    <section class="main-inner-banner back-img" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        style="background-image: url(assets/images/banner-contacto.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-page-banner-content">
+                        <h1 class="h1-title wow fadeup-animation" data-wow-delay="0.4s">Contacto</h1>
+                        <div class="breadcrumb-box wow fadeup-animation" data-wow-delay="0.5s">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li><a href="contact-us.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner End-->
+
+
+
+    <!--Contact Us Get In Touch Start-->
+    <section class="main-contact-touch-in">
+        <div class="container">
+
+            <div class=" align-items-center">
+                <div class="col-lg-12">
+                    <h2 class="h2-title" style="text-align: center;padding-bottom: 50px;">Estamos aquí para ayudarte</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.4s">
+                    <div class="contact-form mt-5">
+                        <form id="email-form">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-box">
+                                        <input type="text" name="Full Name" id="name" class="form-input"
+                                            placeholder="Nombre" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-box">
+                                        <input type="email" name="EmailAddress" id="email" class="form-input"
+                                            placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-box">
+                                        <input type="number" name="Phone No" class="form-input" id="number"
+                                            placeholder="Número de telefono" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-box">
+                                        <textarea class="form-input" id="message" placeholder="Mensaje..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-box mt-2 mb-0">
+                                        <button type="submit" class="sec-btn" style="width: 90%;"><span>Enviar</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="mensaje_contacto_exito" style="display: none;">
+                            Gracias por comunicarte con nosotros, pronto nos pondremos en contacto contigo
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="contact-touch-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.0381953595!2d-75.6020981!3d6.1629485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6135c3b97591fcc5%3A0x1a55024b260cfe91!2sWay%20Maker%20SAS!5e0!3m2!1ses-419!2sco!4v1679591281021!5m2!1ses-419!2sco"
+                            width="416" height="570" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Us Get In Touch End-->
+
+
+    <!--We Are Here Start-->
+    <section class="main-we-are-here-in">
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact-help-box wow fadeup-animation" data-wow-delay="0.3s">
+                        <div class="contact-help-icon rounded-circle">
+                            <img src="assets/images/location-icon-2.png" alt="location">
+                        </div>
+                        <div class="contact-help-content">
+                            <h3 class="h3-title">Encuentranos</h3>
+                            <p>Calle 49 sur No 45 a 300 Of.2007</p>
+                            <p>
+                                Torre empresarial S48
+                            </p>
+                            <p>
+                                Envigado, Antioquia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-help-box wow fadeup-animation" data-wow-delay="0.4s">
+                        <div class="contact-help-icon rounded-circle">
+                            <img src="assets/images/email-2.png" alt="location">
+                        </div>
+                        <div class="contact-help-content">
+                            <h3 class="h3-title">Escribenos</h3>
+                            
+                          
+                            <p><a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                title="Mail to servicioalcliente@waymaker.com.co">servicioalcliente@waymaker.com.co</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-help-box wow fadeup-animation" data-wow-delay="0.5s">
+                        <div class="contact-help-icon rounded-circle">
+                            <img src="assets/images/call-2.png" alt="location">
+                        </div>
+                        <div class="contact-help-content">
+                            <h3 class="h3-title">Llamanos</h3>
+                            <p>  <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker" target="_blank"
+                                title="Llamar a +57 305 2371162">+57 305 2371162</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--We Are Here End-->
+       <!--Footer Start-->
+       <section class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 order-lg-1 order-1 container-service-icon">
+                    <div class="logo-content mob-mb-15 container-service-icon" style="width: 80%; flex-direction: column;">
+                        <div style="text-align: center;">
+
+                            <a href="javascript:void(0);"><img src="assets/images/logo-footer.png" alt="logo"
+                                    style="width: 220px;"></a>
+                        </div>
+                        <p style="margin-top:10px; text-align: center;">Somos su mejor aliado para lograr el saneamiento
+                            de las deudas que presentan ante los fondos de pensiones. 
+                            <br>
+                            <a href="POLÍTICA_DE_TRATAMIENTO_DE_DATOS_WAY_MAKER.pdf" target="_blank" style="z-index: 1; position: relative; text-decoration: underline;">
+                                Política de tratamiento de datos
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-lg-1 order-1">
+                    <div class="our-links mob-mb-15 container-service-icon" style="flex-direction: column; align-items: center;">
+                        <h3 class="h3-title">Explora</h3>
+                        <div class="links-text">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="about-us.html">Nosotros</a></li>
+                                <li><a href="services.html">Servicios</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-lg-4 order-2">
+                    <div class="contact-us mob-mt-15 mob-mt-0 container-service-icon" style="flex-direction: column;">
+                        <h3 class="h3-title">Contactanos</h3>
+                        <div class="contact-us-content container-service-icon" style="flex-direction: column;">
+                            <div class="contact-text mb-20">
+                                <div class="contact-icon">
+                                    <img src="assets/images/location-icon.png" alt="location">
+                                </div>
+                                <p style="color: #ffffff;"> Calle 49 sur No 45 a 300 Of.2007,<br>
+                                    Torre empresarial s48,<br>
+                                    Envigado, Antioquia.</p>
+                            </div>
+                            <div class="contact-text mb-20">
+                                <div class="contact-icon">
+                                    <img src="assets/images/call-1.png" alt="call">
+                                </div>
+                                <p> <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+                                        target="_blank" title="Llamar a +57 305 2371162" style="color: #ffffff;">+57 305
+                                        2371162</a></p>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-icon">
+                                    <img src="assets/images/email-1.png" alt="email">
+                                </div>
+                                <p> <a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                        title="Mail to servicioalcliente@waymaker.com.co"
+                                        style="color: #ffffff;">servicioalcliente@waymaker.com.co</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row copyright-bg">
+                <div class="col-xl-6 col-lg-6 col-md-7">
+                    <div class="copyright-content container-service-icon">
+                        <p>Copyright &copy; <span id="currentYear"></span> <a href="https://Waymaker.com.co">Way Maker</a> Todos los derechos
+                            reservados.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-5">
+                    <div class="social-media-footer container-service-icon" style="width:100%">
+                        <a href="https://www.linkedin.com/in/waymakersas/" title="Follow on Twitter"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/waymakersas/" title="Follow on Instagram"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/WayMakerSAS" title="Follow on Facebook"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer End-->
+
+     <!-- Scroll To Top Start -->
+     <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker" target="_blank" class="scroll-top" id="scroll-to-top">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </a>
+    <!-- Scroll To Top End-->
+    <!-- Jquery JS Link -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS Link -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Slick Slider JS Link -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Wow Animation JS -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--Jarallax JS-->
+    <script src="assets/js/jarallax.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+
+</body>
+
+<script>
+// Inicialización de EmailJS con la llave pública correcta
+emailjs.init("infrjFJIjGvfdtY_D");
+
+$(document).ready(function () {
+    $("#email-form").on("submit", function (event) {
+        event.preventDefault();
+
+        const name = $("#name").val();
+        const email = $("#email").val();
+        const number = $("#number").val();
+        const message = $("#message").val();
+
+        // Verificar que todos los campos tengan valores
+        if (!name || !email || !number || !message) {
+            alert("Por favor, completa todos los campos del formulario.");
+            return;
+        }
+
+        // Parámetros para la plantilla de correo electrónico
+        const templateParams = {
+            name: name,
+            email: email,
+            number: number,
+            message: message,
+        };
+
+        console.log("Parámetros de la plantilla:", templateParams);
+
+        // Enviar correo electrónico usando EmailJS con el ID de servicio correcto
+        emailjs.send("service_mq73l23", "template_owi96hf", templateParams)
+            .then(function (response) {
+                console.log("Correo electrónico enviado con éxito:", response);
+                $("#email-form").hide();
+                $("#mensaje_contacto_exito").show();
+                
+                //Enviamos un mensaje de respuesta al usuario que llena el formulario
+                emailjs.send("service_mq73l23", "template_ch9zb5h", templateParams)
+                
+            }, function (error) {
+                console.error("Error al enviar el correo electrónico:", error);
+                alert("Error al enviar el correo electrónico: " + JSON.stringify(error));
+            });
+    });
+});
+
+</script>
+
+</html>

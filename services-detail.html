@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Way Maker</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FavIcon CSS -->
+    <link rel="icon" href="assets/images/favicon-16x16.png" type="image/gif" sizes="16x16">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <!--Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome Icon CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+    <!-- Wow Animation CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+    <!--Jarallax CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/jarallax.css">
+
+    <!-- Main Style CSS  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Loder Start -->
+    <div class="loader-box">
+        <div class="infinity-loader">
+            <div class="bg">
+                <!--background circles-->
+                <div class="left-bg"></div>
+                <div class="right-bg"></div>
+            </div>
+            <div class="fg">
+                <!--foreground circles-->
+                <div class="top-left-rect">
+                    <div></div>
+                </div>
+                <div class="bottom-right-rect">
+                    <div></div>
+                </div>
+                <div class="top-right-rect">
+                    <div></div>
+                </div>
+                <div class="bottom-left-rect">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loder End -->
+
+
+    <!-- Header Start -->
+    <header class="site-header">
+        <!-- Top start -->
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="header-contact">
+                            <a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                title="Mail to servicioalcliente@waymaker.com.co"><span><img
+                                        src="assets/images/email_2.png" style="width: 20px;"
+                                        alt="Mail Icon"></span>servicioalcliente@waymaker.com.co</a>
+                            <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+                                target="_blank" title="Llamar a +57 305 2371162"><span><img
+                                        src="assets/images/watsap.png" style="width: 20px;" alt="Call Icon"></span>+57
+                                305 2371162</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="Social-midea">
+                            <a href="https://www.facebook.com/WayMakerSAS" target="_blank" title="Facebook"><span><img
+                                        src="assets/images/fbblanco.png" style="width: 20px;" alt="Facebook"></span></a>
+                            <a href="https://www.instagram.com/waymakersas/" target="_blank"
+                                title="Instagram"><span><img src="assets/images/instagramblanco.png"
+                                        style="width: 20px;" alt="Instagram"></span></a>
+                            <a href="https://www.linkedin.com/in/waymakersas/" target="_blank"
+                                title="linkedin"><span><img src="assets/images/linkedinblanco.png" style="width: 20px;"
+                                        alt="LinkedIn"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top End -->
+
+        <!--Navbar Start  -->
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <!-- Sit Logo Start -->
+                        <div class="site-branding">
+                            <a href="index.html" title="WayMaker">
+                                <img src="assets/images/Monocromatico_8@4x.png" alt="Logo">
+                                <img src="assets/images/Logo_Principal@4x.png" class="sticky-logo" alt="Logo">
+                            </a>
+                        </div>
+                        <!-- Sit Logo End -->
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="header-menu">
+                            <nav class="main-navigation">
+                                <button class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <ul class="menu" id="servicios">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about-us.html">Nosotros</a></li>
+                                    <li class="active menu-lista">
+                                        <a href="services.html">Servicios</a>
+                                        <ul>
+                                            <li><a href="cursos-virtuales.html">Cursos virtuales</a></li>
+                                        </ul>  
+                                    </li>
+                                    <li>
+                                        <a href="https://waymakersas.blogspot.com/" target="_blank" title="services">Blog</a>
+                                    </li>
+                                    <li class="boton-contacto" style="display: none;">
+                                        <a href="contact-us.html">Contáctanos</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                            <div class="black-shadow"></div>
+                            <div class="header-btn">
+                                <a href="contact-us.html" class="sec-btn">Contáctanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Navbar End  -->
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Banner Start-->
+    <section class="main-inner-banner back-img" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+        style="background-image: url(assets/images/baner-servicios.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-page-banner-content">
+                        <h1 class="h1-title wow fadeup-animation" id="textContainer" data-wow-delay="0.4s">Diagnóstico
+                        </h1>
+                        <div class="breadcrumb-box wow fadeup-animation" data-wow-delay="0.5s">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li><a href="services.html">Servicios</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li><a href="services-detail.html">Detalle</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Banner End-->
+
+    <!--Service Detail Content Start-->
+    <section class="main-service-detail">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-7">
+
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="service-detail">
+                                <p>Ofrecemos una herramienta de diagnóstico llamada “Assessment”. Que permite obtener un
+                                    panorama claro de la situación de la empresa, en relación con los estados de cuenta
+                                    ante los diferentes fondos de pensiones.</p>
+
+
+                                <img src="assets/images/detalle-servicios/diagnostico.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="service-detail">
+                                <p>En Way Maker hemos diseñado una metodología para depurar todas las inconsistencias
+                                    que se presentan ante los diferentes estados de cuenta de todas las administradoras
+                                    de pensiones, así mismo ofrecemos un acompañamiento jurídico para realizar la
+                                    defensa de nuestros clientes ante todos los procesos de cobro y sus diferentes
+                                    etapas.</p>
+
+                                <img src="assets/images/detalle-servicios/depuracion.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="service-detail">
+                                <p>Nos encontramos en un momento coyuntural con puertas a una Reforma pensional y
+                                    laboral, donde la mayoría de los colaboradores de las diferentes organizaciones, no
+                                    saben que decisión tomar en cuanto al régimen pensional que más les favorece, lo que
+                                    genera consigo incertidumbre y en algunos casos una mala toma de decisiones. </p>
+                                <p>No se trata de recibir solo una doble asesoría con los diferentes fondos de pensiones
+                                    si no que desde el equipo de Way Maker, revisamos cada caso y las posibles
+                                    alternativas para cada persona desde la revisión de su historia laboral, situación
+                                    familiar, económica y propuestas de valor como lo son los aportes voluntarios,
+                                    traslados por sentencia unificada o vía judicial, proyección de su posible mesada
+                                    pensional en el mejor de sus escenarios. </p>
+                                <h3 class="h3-title">Que incluye este servicio:</h3>
+
+                                <div class="blog-point">
+                                    <div class="blog-point-box">
+                                        <ul>
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                    margin-bottom: 0;" alt="tick"><span>Diagnostico para determinar la necesidad de cada
+                                                    persona.</span></li>
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                        margin-bottom: 0;" alt="tick"><span> Revisión y corrección de la historia laboral, tanto por
+                                                    parte del trabajador
+                                                    como del empleador.</span></li>
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                                                margin-bottom: 0;" alt="tick"><span> Proyección de la mesada pensional
+                                                    en sus diferentes escenarios.</span></li>
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                    margin-bottom: 0;" alt="tick"><span> Asesoría personalizada (aclaración de dudas, acompañamiento
+                                                    durante todo el
+                                                    proceso).</span></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <img src="assets/images/detalle-servicios/planeacion.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="service-detail">
+
+                                <p>
+                                    Cuando los colaboradores van terminando su etapa laboral llega la incertidumbre al
+                                    cambio de vida, esto genera momentos de emociones negativas que pueden verse
+                                    reflejadas en una improductividad laboral.
+                                </p>
+                                <p>
+                                    Organizar sus finanzas y gestionar todo el tema de su pensión, se convierten en
+                                    temas claves para los prepensionados, por eso desde Way Maker ofrecemos un
+                                    acompañamiento integral en materia pensional para estas personas, lo que genera
+                                    bienestar en los prepensionados y sus familias.
+                                </p>
+                                <h3 class="h3-title">Que incluye este servicio:</h3>
+
+                                <div class="blog-point">
+                                    <div class="blog-point-box">
+                                        <ul>
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                    margin-bottom: 0;" alt="tick"><span>Revisión y corrección de la historia laboral, tanto por parte del trabajador
+                                            como del empleador.</span></li>
+
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                                                        margin-bottom: 0;" alt="tick"><span>Proyección de la mesada pensional en sus diferentes escenarios.</span></li>
+
+                                            <li><img src="assets/images/tick-lila.png" style="margin-top: 0;
+                                                                                            margin-bottom: 0;"
+                                                    alt="tick"><span> Solicitud de la prestación económica ante la administradora de pensiones.</span></li>
+
+                                            <li><img src="assets/images/tick-lila.png"
+                                                    style="margin-top: 0;
+                                                                                                                                margin-bottom: 0;"
+                                                    alt="tick"><span>Interposición del recurso de reposición y/o apelación si diera lugar.</span></li>
+
+                                            <li><img src="assets/images/tick-lila.png"
+                                                    style="margin-top: 0;
+                                                                                                                                                                    margin-bottom: 0;"
+                                                    alt="tick"><span>Asesoría personalizada en materia pensional al afiliado (aclaración de
+                                                        dudas, acompañamiento durante todo el proceso).</span></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                               
+                                <img src="assets/images/detalle-servicios/acompaniamiento.png" data-tilt
+                                    data-tilt-max="3" alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-servicio-1" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="service-detail">
+                                <p>Dirigido a las personas que presentan inconsistencias en su historia laboral ya sea
+                                    por faltantes o inconsistencias en los aportes, casos de múltiples empleadores o de
+                                    traslados entre fondos y/o por sentencia judicial.</p>
+
+
+                                <img src="assets/images/detalle-servicios/correccion.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="tab-pane fade" id="v-pills-servicio-2" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="service-detail">
+                                <p>Somos expertos en pensiones por lo que tenemos la capacidad de dictar cualquier tipo
+                                    de capacitación en materia pensional, estas pueden ser ajustadas a la necesidad de
+                                    cada cliente.</p>
+
+
+                                <img src="assets/images/detalle-servicios/charlas.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-servicio-3" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="service-detail">
+
+                                <img src="assets/images/detalle-servicios/calculo.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-servicio-4" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="service-detail" id="service-detail">
+                                <p>Medicina laboral, pensiones especiales, alto riesgo.</p>
+
+                                <img src="assets/images/detalle-servicios/asesorias.png" data-tilt data-tilt-max="3"
+                                    alt="service detail" style="border-radius: 8px;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="service-detail-box">
+                        <h2 class="h2-title">Nuestros servicios</h2>
+                        <div class="service-detail-box-list nav flex-column  me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <div class="service-list-box  fadeup-animation nav-link active" id="v-pills-home-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                                aria-controls="v-pills-home" aria-selected="true" data-text="Diagnóstico"
+                                data-wow-delay="0.3s">
+                                <a href="services-detail.html?div=v-pills-home">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Diagnóstico</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box  fadeup-animation nav-link" id="v-pills-profile-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false"
+                                data-text="Depuración de estados de cuenta" data-wow-delay="0.4s">
+                                <a href="services-detail.html?div=v-pills-profile">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Depuración de estados de cuenta</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box  fadeup-animation nav-link" id="v-pills-messages-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false" data-text="Planeación pensional"
+                                data-wow-delay="0.5s">
+                                <a href="services-detail.html?div=v-pills-messages">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Planeación pensional</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box  fadeup-animation nav-link" id="v-pills-settings-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false"
+                                data-text="Acompañamiento pensional" data-wow-delay="0.6s">
+                                <a href="services-detail.html?div=v-pills-settings">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Acompañamiento pensional</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box fadeup-animation nav-link" id="v-pills-servicio-1-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-servicio-1" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false"
+                                data-text="Corrección de historias laborales" data-wow-delay="0.7s">
+                                <a href="services-detail.html?div=v-pills-servicio-1">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Corrección de historias laborales</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box fadeup-animation nav-link" id="v-pills-servicio-2-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-servicio-2" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false"
+                                data-text="Charlas y capacitaciones" data-wow-delay="0.8s">
+                                <a href="services-detail.html?div=v-pills-servicio-2">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Charlas y capacitaciones</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box fadeup-animation nav-link" id="v-pills-servicio-3-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-servicio-3" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false"
+                                data-text="Proyecciones y cálculos actuariales" data-wow-delay="0.9s">
+                                <a href="services-detail.html?div=v-pills-servicio-3">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Proyecciones y cálculos actuariales</li>
+                                    </ul>
+                                </a>
+                            </div>
+                            <div class="service-list-box fadeup-animation nav-link" id="v-pills-servicio-4-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-servicio-4" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false"
+                                data-text="Asesorías en casos especiales" data-wow-delay="1.0s">
+                                <a href="services-detail.html?div=v-pills-servicio-4">
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></li>
+                                        <li>Asesorías en casos especiales</li>
+                                    </ul>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-detail-contact wow fadeup-animation" data-wow-delay="1.1s">
+                            <h3 class="h3-title">¿Necesitas ayuda? Contáctanos</h3>
+                            <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+                                target="_blank" title="Whatsapp a +57 305 2371162">+57
+                                305 2371162</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services Detail Content End-->
+
+    <!--Footer Start-->
+    <section class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 order-lg-1 order-1 container-service-icon">
+                    <div class="logo-content mob-mb-15 container-service-icon" style="width: 80%; flex-direction: column;">
+                        <div style="text-align: center;">
+
+                            <a href="javascript:void(0);"><img src="assets/images/logo-footer.png" alt="logo"
+                                    style="width: 220px;"></a>
+                        </div>
+                        <p style="margin-top:10px; text-align: center;">Somos su mejor aliado para lograr el saneamiento
+                            de las deudas que presentan ante los fondos de pensiones. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-lg-1 order-1">
+                    <div class="our-links mob-mb-15 container-service-icon" style="flex-direction: column; align-items: center;">
+                        <h3 class="h3-title">Explora</h3>
+                        <div class="links-text">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="about-us.html">Nosotros</a></li>
+                                <li><a href="services.html">Servicios</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-lg-4 order-2">
+                    <div class="contact-us mob-mt-15 mob-mt-0 container-service-icon" style="flex-direction: column;">
+                        <h3 class="h3-title">Contactanos</h3>
+                        <div class="contact-us-content container-service-icon" style="flex-direction: column;">
+                            <div class="contact-text mb-20">
+                                <div class="contact-icon">
+                                    <img src="assets/images/location-icon.png" alt="location">
+                                </div>
+                                <p style="color: #ffffff;"> Calle 49 sur No 45 a 300 Of.2007,<br>
+                                    Torre empresarial s48,<br>
+                                    Envigado, Antioquia.</p>
+                            </div>
+                            <div class="contact-text mb-20">
+                                <div class="contact-icon">
+                                    <img src="assets/images/call-1.png" alt="call">
+                                </div>
+                                <p> <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+                                        target="_blank" title="Llamar a +57 305 2371162" style="color: #ffffff;">+57 305
+                                        2371162</a></p>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-icon">
+                                    <img src="assets/images/email-1.png" alt="email">
+                                </div>
+                                <p> <a href="mailto:servicioalcliente@waymaker.com.co" target="_blank"
+                                        title="Mail to servicioalcliente@waymaker.com.co"
+                                        style="color: #ffffff;">servicioalcliente@waymaker.com.co</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row copyright-bg">
+                <div class="col-xl-6 col-lg-6 col-md-7">
+                    <div class="copyright-content container-service-icon">
+                        <p>Copyright &copy; <span id="currentYear"></span> <a href="https://Waymaker.com.co">Way Maker</a> Todos los derechos
+                            reservados.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-5">
+                    <div class="social-media-footer container-service-icon" style="width:100%">
+                        <a href="https://www.linkedin.com/in/waymakersas/" title="Follow on Twitter"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/waymakersas/" title="Follow on Instagram"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/WayMakerSAS" title="Follow on Facebook"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer End-->
+
+    <!-- Scroll To Top Start -->
+    <a href="https://api.whatsapp.com/send?phone=573052371162&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Way%20Maker"
+        target="_blank" class="scroll-top" id="scroll-to-top">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </a>
+    <!-- Scroll To Top End-->
+
+    <!-- Jquery JS Link -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS Link -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Slick Slider JS Link -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Wow Animation JS -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--Jarallax JS-->
+    <script src="assets/js/jarallax.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+
+    <!--Tilt Js-->
+    <script src="assets/js/tilt.jquery.js"></script>
+
+
+    <script>
+
+        function removeUrlParameter(key) {
+            const url = new URL(window.location.href);
+            url.searchParams.delete(key);
+            window.history.pushState({}, "", url);
+        }
+
+        $(document).ready(function () {
+            $('.service-list-box').on('click', function () {
+                // Activar el enlace <a> dentro del <div>
+                window.location.href = $(this).find('a').attr('href');
+            });
+        });
+
+        $(document).ready(function () {
+
+
+
+            // Controlador de eventos para las pestañas
+            $("#v-pills-tab .nav-link").on("shown.bs.tab", function (event) {
+                const newText = $(event.target).data("text");
+                $("#textContainer").text(newText);
+            });
+
+            // $("#v-pills-tab .nav-link").on("click", function (event) {
+            //     // Desplazarse al inicio de la página
+            //     $("html, body").animate({ scrollTop: 0 }, 500);
+            // });
+            // Obtener parámetros de la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const targetDivId = urlParams.get("div")
+
+            console.log(targetDivId);
+
+            // Si se proporcionó un ID de div en la URL
+            if (targetDivId) {
+                const targetDiv = $("#" + targetDivId);
+                const targetTab = targetDiv.closest(".tab-pane");
+                console.log(targetTab);
+                // Si el div objetivo existe dentro de un panel de pestañas
+                if (targetTab.length) {
+                    const targetTabId = targetTab.attr("id");
+                    const targetTabLinkId = targetTabId + "-tab";
+                    console.log(targetTabLinkId)
+                    // Activar la pestaña de destino
+                    $("#" + targetTabLinkId).tab("show");
+
+
+
+                    // Desplazarse al div específico
+                    removeUrlParameter("div");
+
+                    // setTimeout(function () {
+                    //     $("html, body").animate({
+                    //         scrollTop: targetDiv.offset().top
+                    //     }, 500); // Eliminar el parámetro 'div' de la URL
+                    // }, 100);
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
